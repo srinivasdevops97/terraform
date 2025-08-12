@@ -1,0 +1,2 @@
+output "instances_info" {
+}
