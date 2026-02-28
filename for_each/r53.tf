@@ -1,7 +1,7 @@
 resource "aws_route53_record" "terraform" {
   for_each = aws_instance.expense 
   zone_id = var.zone_id
-  #backend.srinivas.fun
+  #backend.srinivas.sbs
   name            = each.key == "frontend" ? var.domain_name : "${each.key}.${var.domain_name}"
   type            = "A"
   ttl             = 1

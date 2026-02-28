@@ -5,7 +5,7 @@ variable "instance_names" {
 }
 
 variable "domain_name" {
-  default = "srinivas.fun"
+  default = "srinivas.sbs"
 }
 
 variable "zone_id" {

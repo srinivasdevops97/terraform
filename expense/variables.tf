@@ -17,5 +17,5 @@ variable "zone_id" {
 }
 
 variable "domain_name" {
-    default = "srinivas.fun"
+    default = "srinivas.sbs"
 }
